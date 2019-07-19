@@ -1,18 +1,18 @@
 # Maisha
 Online Bloodbank System
 
-Default Admin:.
+### Default Admin:
 	username: admin
 	password: 123
 
-Default Donor:.
+### Default Donor:	
+```
 	email: donor@gmail.com
 	password: 123
+```
 
-	BLOOD BANK MANAGEMENT SYSTEM
-
-	Database Configuration  (Local Host)
-	
+## Database Configuration  (Local Host)
+```	
 	Step 1: First create a blank Database "bloodbank"
 	
 	Step 2: Select recently created database "bloodbank"
@@ -20,8 +20,9 @@ Default Donor:.
 	Step 3: Import database tables from the repository file  "bloodbank_tables.sql"
 
 	Step 4: Database is now connected. You can now register and login and use other features
+```
 
-		Basic structure in parent folder:
+## Basic structure in parent folder:
 		maisha/
 		│   campgallary.php
 		│   camps.php
