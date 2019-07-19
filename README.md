@@ -2,15 +2,15 @@
 Online Bloodbank System
 
 ### Default Admin:
+```
 	username: admin
 	password: 123
-
+```
 ### Default Donor:	
 ```
-	email: donor@gmail.com
+	   email: donor@gmail.com
 	password: 123
 ```
-
 ## Database Configuration  (Local Host)
 ```	
 	Step 1: First create a blank Database "bloodbank"
@@ -21,7 +21,6 @@ Online Bloodbank System
 
 	Step 4: Database is now connected. You can now register and login and use other features
 ```
-
 ## Basic structure in parent folder:
 		maisha/
 		│   campgallary.php
