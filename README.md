@@ -167,7 +167,6 @@ Online Bloodbank System
 		│       user-bg.jpg
 		│
 		├───js
-		│       facts.js
 		│       vertical-responsive-menu.min.js
 		│
 		└───lib
