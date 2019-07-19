@@ -14,7 +14,6 @@ Online Bloodbank System
 	Step 4: Database is now connected. You can now register and login and use other features
 
 Basic structure in parent folder:
-
 maisha/
 │   campgallary.php
 │   camps.php
