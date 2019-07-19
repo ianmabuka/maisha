@@ -1,6 +1,14 @@
 # Maisha
 Online Bloodbank System
 
+Default Admin:.
+	username: admin
+	password: 123
+
+Default Donor:.
+	email: donor@gmail.com
+	password: 123
+
 	BLOOD BANK MANAGEMENT SYSTEM
 
 	Database Configuration  (Local Host)
