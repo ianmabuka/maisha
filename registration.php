@@ -253,7 +253,7 @@
                         <label class="col-sm-3 col-form-label">Blood group :</label>
                         <div class="col-sm-9">
                             <select class="form-control" name="t5">
-                            <option value="">Not say</option>
+                            <option value="0">Not say</option>
                             <?php
                             $cn=makeconnection();
                             $s="select * from bloodgroup";
