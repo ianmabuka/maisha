@@ -167,7 +167,7 @@
 			<div class="card-body pb-2">
 				<form method="post" enctype="multipart/form-data">
                     <?php
-                    if(isset($_POST["sbmt"])) 
+                    if(isset($_POST["submt"])) 
                     {
                     $target_dir = "doner_pic/";
                     $target_file = $target_dir . basename($_FILES["t9"]["name"]);
@@ -322,7 +322,7 @@
                     <hr class="my-2">
                 
 					<div class="form-group">
-						<input type="submit" name="sbmt" value="Register" class="btn float-right login_btn">
+						<input type="submit" name="submt" value="Register" class="btn float-right login_btn">
 					</div>
 				</form>
                 <script>
