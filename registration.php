@@ -180,18 +180,18 @@
                           //  echo "File is an image - " . $check["mime"] . ".";
                             $uploadOk = 1;
                         } else {
-                            echo "File is not an image.";
+                            echo '<p class="text-danger text-center">File is not an image.</p>';
                             $uploadOk = 0;
                         }
 
                     // Check if file already exists
                     if (file_exists($target_file)) {
-                        echo "Sorry, file already exists.";
+                        echo '<p class="text-danger text-center">Sorry, file already exists.</p>';
                         $uploadOk = 0;
                     }
                     //aloow certain file formats
                         if($imageFileType != "jpg" && $imageFileType !="png" && $imageFileType !="jpeg" && $imageFileType !="gif"){
-                            echo "sorry, only jpg, jpeg, Png & gif files are allowed.";
+                            echo '<p class="text-danger text-center">Sorry, only jpg, jpeg, Png & gif files are allowed.</p>';
                             $uploadok=0;
                         }else{
                             if(move_uploaded_file($_FILES["t9"]["tmp_name"], $target_file)){
